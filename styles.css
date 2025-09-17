@@ -258,7 +258,7 @@ main {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-image: url('IMG/home_background.jpg');
+  background-image: url('home_background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1414,3 +1414,4 @@ textarea:focus {
     transform: translateY(-10px);
   }
 }
+
