@@ -1,0 +1,365 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio</title>
+  <!-- Primary SEO -->
+  <meta name="description" content="Bilal Khasakhanov — Full‑Stack developer (frontend, backend, hosting, design). I build fast, accessible, and user‑friendly web applications." />
+  <meta name="keywords" content="Bilal Khasakhanov, Full‑Stack Developer, Web Developer, Frontend, Backend, Portfolio" />
+  <meta name="author" content="Bilal Khasakhanov" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#007bff" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Bilal Khasakhanov — Full‑Stack Developer" />
+  <meta property="og:description" content="Full‑Stack web development from design to deployment. Fast, accessible and scalable solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="IMG/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bilal Khasakhanov — Full‑Stack Developer" />
+  <meta name="twitter:description" content="Full‑Stack web development from design to deployment. Fast, accessible and scalable solutions." />
+  <meta name="twitter:image" content="IMG/og-image.jpg" />
+
+  <!-- Canonical & hreflang (update URL when deploying) -->
+  <link rel="canonical" href="" />
+  <link rel="alternate" hreflang="en" href="" />
+  <link rel="alternate" hreflang="nl" href="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">Portafolio</a>
+      <button id="menuToggle" class="icon-button" aria-label="Toggle menu">
+        <span class="icon"></span>
+      </button>
+      <nav id="mainNav" class="nav-links">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme"></button>
+        <button id="langToggle" class="lang-toggle" aria-label="Toggle language" data-lang="en">EN</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home" class="section hero">
+      <div class="container">
+        <h1 data-i18n="hero.title">Hello! I'm <span class="highlight-name">Bilal Khasakhanov</span></h1>
+        <p data-i18n="hero.subtitle">Frontend / Backend / FullStack developer. Creating fast and user-friendly web applications.</p>
+        <div class="hero-cta">
+          <a class="button primary" href="#projects" data-i18n="hero.ctaPrimary">My Projects</a>
+          <a class="button" href="#contact" data-i18n="hero.ctaSecondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="section">
+      <div class="container services">
+        <h2 data-i18n="services.title">Services</h2>
+        <p class="services-subtitle" data-i18n="services.subtitle">Choose the perfect package for your project</p>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">🌐</div>
+            <h3 data-i18n="services.landing.title">Landing Page</h3>
+            <p data-i18n="services.landing.desc">Single page website with contact form, mobile responsive design.</p>
+            <div class="service-features">
+              <span class="feature" data-i18n="services.landing.feature1">Mobile responsive</span>
+              <span class="feature" data-i18n="services.landing.feature2">Contact form</span>
+              <span class="feature" data-i18n="services.landing.feature3">SEO optimized</span>
+            </div>
+            <div class="service-price" data-i18n="services.landing.price">€599</div>
+          </article>
+          <article class="service-card featured">
+            <div class="service-badge" data-i18n="services.popular">Most Popular</div>
+            <div class="service-icon">🏢</div>
+            <h3 data-i18n="services.business.title">Business Website</h3>
+            <p data-i18n="services.business.desc">Multi-page website with CMS, blog, and admin panel.</p>
+            <div class="service-features">
+              <span class="feature" data-i18n="services.business.feature1">Up to 10 pages</span>
+              <span class="feature" data-i18n="services.business.feature2">WordPress CMS</span>
+              <span class="feature" data-i18n="services.business.feature3">Blog system</span>
+              <span class="feature" data-i18n="services.business.feature4">Admin panel</span>
+            </div>
+            <div class="service-price" data-i18n="services.business.price">€1299</div>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">🛒</div>
+            <h3 data-i18n="services.ecommerce.title">E-commerce Store</h3>
+            <p data-i18n="services.ecommerce.desc">Full online store with payment integration and inventory management.</p>
+            <div class="service-features">
+              <span class="feature" data-i18n="services.ecommerce.feature1">Payment integration</span>
+              <span class="feature" data-i18n="services.ecommerce.feature2">Inventory management</span>
+              <span class="feature" data-i18n="services.ecommerce.feature3">Order tracking</span>
+              <span class="feature" data-i18n="services.ecommerce.feature4">Admin dashboard</span>
+            </div>
+            <div class="service-price" data-i18n="services.ecommerce.price">€2499</div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="process" class="section alt">
+      <div class="container">
+        <h2 data-i18n="process.title">How I Work</h2>
+        <p class="process-subtitle" data-i18n="process.subtitle">Simple 4-step process from idea to launch</p>
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <h3 data-i18n="process.step1.title">Discovery</h3>
+            <p data-i18n="process.step1.desc">We discuss your goals, target audience, and requirements to create the perfect solution.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <h3 data-i18n="process.step2.title">Design</h3>
+            <p data-i18n="process.step2.desc">I create wireframes and mockups to visualize your project before development starts.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <h3 data-i18n="process.step3.title">Development</h3>
+            <p data-i18n="process.step3.desc">Clean, efficient code development with regular updates and feedback sessions.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <h3 data-i18n="process.step4.title">Launch</h3>
+            <p data-i18n="process.step4.desc">Deployment, testing, and handover with documentation and ongoing support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="projects-header">
+          <h2 data-i18n="projects.title">Projects</h2>
+          <button class="button view-all-btn" id="viewAllBtn" data-i18n="projects.viewAll">View All</button>
+        </div>
+        <div class="carousel-container">
+          <button class="carousel-arrow carousel-arrow-left" id="prevBtn" aria-label="Previous projects">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+          </button>
+          <div class="carousel-wrapper">
+            <div class="carousel-track" id="carouselTrack">
+              <article class="card">
+                <div class="image-wrapper">
+                  <img src="C:\my portafolio site\Portafolio\IMG\teplotec.jpg" alt="Teplotec handyman services website preview" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='https://picsum.photos/1200/675?random=101';" />
+                </div>
+                <h3 data-i18n="projects.teplotec.title">Teplotec</h3>
+                <p data-i18n="projects.teplotec.desc">A modern services website for handyman and technical solutions in Belgium. Focus on clear service structure, quick booking, and trust-building UI.</p>
+                <div class="badges">
+                  <span class="badge">WordPress</span>
+                  <span class="badge">Elementor</span>
+                  <span class="badge">PHP</span>
+                  <span class="badge">MySQL</span>
+                  <span class="badge">Booking System</span>
+                </div>
+                <a class="link" href="https://teplotec.be/" target="_blank" rel="noopener" data-i18n="projects.viewSite">View site</a>
+              </article>
+              <article class="card">
+                <div class="image-wrapper">
+                  <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=60" alt="React and Node.js web app screenshot" loading="lazy" />
+                </div>
+                <h3>SaaS Dashboard</h3>
+                <p data-i18n="projects.saas.desc">Interactive analytics dashboard with authentication, charts, and API integrations. Optimized for performance and accessibility.</p>
+                <div class="badges">
+                  <span class="badge">React</span>
+                  <span class="badge">Node.js</span>
+                  <span class="badge">MongoDB</span>
+                  <span class="badge">Chart.js</span>
+                </div>
+                <a class="link" href="#" target="_blank" rel="noopener">View project</a>
+              </article>
+              <article class="card">
+                <div class="image-wrapper">
+                  <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=60" alt="Static site with Astro and API content" loading="lazy" />
+                </div>
+                <h3>Content Hub</h3>
+                <p data-i18n="projects.content.desc">Blazing-fast content site built with Astro and external APIs. Delivers excellent Lighthouse scores and SEO-friendly markup.</p>
+                <div class="badges">
+                  <span class="badge">Astro</span>
+                  <span class="badge">TypeScript</span>
+                  <span class="badge">Tailwind CSS</span>
+                  <span class="badge">Vercel</span>
+                </div>
+                <a class="link" href="#" target="_blank" rel="noopener">View project</a>
+              </article>
+              <article class="card">
+                <div class="image-wrapper">
+                  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=60" alt="E-commerce platform screenshot" loading="lazy" />
+                </div>
+                <h3>E-commerce Platform</h3>
+                <p data-i18n="projects.ecom.desc">Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard. Built for scalability and user experience.</p>
+                <div class="badges">
+                  <span class="badge">Next.js</span>
+                  <span class="badge">Stripe</span>
+                  <span class="badge">PostgreSQL</span>
+                  <span class="badge">Prisma</span>
+                </div>
+                <a class="link" href="#" target="_blank" rel="noopener">View project</a>
+              </article>
+              <article class="card">
+                <div class="image-wrapper">
+                  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=60" alt="Mobile app interface screenshot" loading="lazy" />
+                </div>
+                <h3>Task Manager App</h3>
+                <p data-i18n="projects.task.desc">Cross-platform mobile app for task management with real-time sync, team collaboration features, and intuitive design patterns.</p>
+                <div class="badges">
+                  <span class="badge">React Native</span>
+                  <span class="badge">Expo</span>
+                  <span class="badge">Firebase</span>
+                  <span class="badge">Redux Toolkit</span>
+                </div>
+                <a class="link" href="#" target="_blank" rel="noopener">View project</a>
+              </article>
+              <article class="card">
+                <div class="image-wrapper">
+                  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=60" alt="Portfolio website screenshot" loading="lazy" />
+                </div>
+                <h3>Creative Portfolio</h3>
+                <p data-i18n="projects.portfolio.desc">Minimalist portfolio website showcasing creative work with smooth animations, dark mode, and optimized performance across devices.</p>
+                <div class="badges">
+                  <span class="badge">Next.js</span>
+                  <span class="badge">Framer Motion</span>
+                  <span class="badge">Tailwind CSS</span>
+                  <span class="badge">Vercel</span>
+                </div>
+                <a class="link" href="#" target="_blank" rel="noopener">View project</a>
+              </article>
+            </div>
+          </div>
+          <button class="carousel-arrow carousel-arrow-right" id="nextBtn" aria-label="Next projects">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+          </button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+    <section id="about" class="section alt">
+      <div class="container about">
+        <h2 data-i18n="about.title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-media">
+            <div class="about-photo">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Developer working on laptop" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80';" />
+              <span class="about-badge" data-i18n="about.badge">Available for work</span>
+            </div>
+          </div>
+          <div class="about-content">
+            <p class="lead" data-i18n="about.lead">I'm Bilal Khasakhanov, a 23‑year‑old Full‑Stack web developer crafting end‑to‑end digital products — from design to deployment.</p>
+            <p data-i18n="about.desc">I design clean, user‑friendly interfaces and build reliable back‑end services with production‑ready hosting and infrastructure. My focus is performance, accessibility, and maintainable code that scales. I enjoy turning ideas into polished, real‑world solutions.</p>
+            <div class="stats">
+              <div class="stat"><span class="num" data-target="5">0</span><span class="label" data-i18n="about.stats1">Years experience</span></div>
+              <div class="stat"><span class="num" data-target="30">0</span><span class="label" data-i18n="about.stats2">Projects</span></div>
+              <div class="stat"><span class="num" data-target="12">0</span><span class="label" data-i18n="about.stats3">Happy clients</span></div>
+            </div>
+            <div class="about-cta">
+              <a class="button primary" href="#projects" data-i18n="about.cta1">See my work</a>
+              <a class="button" href="#contact" data-i18n="about.cta2">Hire me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 data-i18n="pricing.title">Pricing</h2>
+        <p class="pricing-subtitle" data-i18n="pricing.subtitle">Transparent pricing with no hidden fees</p>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3 data-i18n="pricing.hourly.title">Hourly Rate</h3>
+            <div class="price" data-i18n="pricing.hourly.price">€65<span>/hour</span></div>
+            <ul class="pricing-features">
+              <li data-i18n="pricing.hourly.feature1">Perfect for small tasks</li>
+              <li data-i18n="pricing.hourly.feature2">Bug fixes & updates</li>
+              <li data-i18n="pricing.hourly.feature3">Consultations</li>
+              <li data-i18n="pricing.hourly.feature4">Minimum 2 hours</li>
+            </ul>
+            <a href="#contact" class="button" data-i18n="pricing.contact">Get Quote</a>
+          </div>
+          <div class="pricing-card featured">
+            <div class="pricing-badge" data-i18n="pricing.recommended">Recommended</div>
+            <h3 data-i18n="pricing.project.title">Project Based</h3>
+            <div class="price" data-i18n="pricing.project.price">€599<span>-€2499</span></div>
+            <ul class="pricing-features">
+              <li data-i18n="pricing.project.feature1">Fixed price packages</li>
+              <li data-i18n="pricing.project.feature2">No surprise costs</li>
+              <li data-i18n="pricing.project.feature3">3 months support</li>
+              <li data-i18n="pricing.project.feature4">Source code included</li>
+            </ul>
+            <a href="#contact" class="button primary" data-i18n="pricing.contact">Start Project</a>
+          </div>
+          <div class="pricing-card">
+            <h3 data-i18n="pricing.maintenance.title">Maintenance</h3>
+            <div class="price" data-i18n="pricing.maintenance.price">€199<span>/month</span></div>
+            <ul class="pricing-features">
+              <li data-i18n="pricing.maintenance.feature1">Regular updates</li>
+              <li data-i18n="pricing.maintenance.feature2">Security monitoring</li>
+              <li data-i18n="pricing.maintenance.feature3">Backup & restore</li>
+              <li data-i18n="pricing.maintenance.feature4">Priority support</li>
+            </ul>
+            <a href="#contact" class="button" data-i18n="pricing.contact">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <div class="contact-info">
+          <a href="mailto:bilal.khasakhanov@gmail.com" class="contact-chip" data-i18n="contact.email">✉️ bilal.khasakhanov@gmail.com</a>
+          <a href="tel:+32490437244" class="contact-chip" data-i18n="contact.phone">📞 +32 490 43 72 44</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Oudenaarde%2C%20Belgium" class="contact-chip" target="_blank" rel="noopener" data-i18n="contact.location">📍 Oudenaarde, Belgium</a>
+        </div>
+        <form class="contact-form" action="#" method="post" onsubmit="return false;">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required data-i18n-placeholder="contact.form.name" />
+            <input type="email" name="email" placeholder="Email" required data-i18n-placeholder="contact.form.email" />
+          </div>
+          <div class="form-row">
+            <select name="project_type" required data-i18n-placeholder="contact.form.projectType">
+              <option value="" data-i18n="contact.form.selectProject">Select Project Type</option>
+              <option value="landing" data-i18n="contact.form.landing">Landing Page (€599)</option>
+              <option value="business" data-i18n="contact.form.business">Business Website (€1299)</option>
+              <option value="ecommerce" data-i18n="contact.form.ecommerce">E-commerce Store (€2499)</option>
+              <option value="custom" data-i18n="contact.form.custom">Custom Project</option>
+              <option value="maintenance" data-i18n="contact.form.maintenance">Maintenance (€199/month)</option>
+              <option value="consultation" data-i18n="contact.form.consultation">Consultation (€65/hour)</option>
+            </select>
+            <select name="budget" required data-i18n-placeholder="contact.form.budget">
+              <option value="" data-i18n="contact.form.selectBudget">Select Budget Range</option>
+              <option value="500-1000" data-i18n="contact.form.budget1">€500 - €1000</option>
+              <option value="1000-2000" data-i18n="contact.form.budget2">€1000 - €2000</option>
+              <option value="2000-3000" data-i18n="contact.form.budget3">€2000 - €3000</option>
+              <option value="3000+" data-i18n="contact.form.budget4">€3000+</option>
+              <option value="discuss" data-i18n="contact.form.budget5">Let's discuss</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <input type="text" name="company" placeholder="Company (Optional)" data-i18n-placeholder="contact.form.company" />
+            <input type="tel" name="phone" placeholder="Phone (Optional)" data-i18n-placeholder="contact.form.phone" />
+          </div>
+          <textarea name="message" rows="5" placeholder="Tell me about your project..." required data-i18n-placeholder="contact.form.message"></textarea>
+          <div class="form-checkbox">
+            <input type="checkbox" name="newsletter" id="newsletter" />
+            <label for="newsletter" data-i18n="contact.form.newsletter">Subscribe to my newsletter for web development tips</label>
+          </div>
+          <button class="button primary" type="submit" data-i18n="contact.form.send">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container"> <span id="year"></span> Portafolio — <span data-i18n="footer.copyright">All rights reserved.</span></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
